@@ -1,0 +1,40 @@
+UJIAN AKHIR SEMESTER 
+
+Nama	: A A Istri Winda Premaswari
+Nim	: 2101010021
+Prodi	: SI Malam
+Matkul	: Dasar Dasar Pemrograman
+
+"Menghitung Nilai Rata - Rata Mahasiswa SI Malam"
+
+int main()
+{
+    
+    int Kalkulus, Pancasila, DDP, Agama, KSI, PSD, Kewarganegaraan;
+    
+    cout << "Masukan nilai Kalkulus : ";
+    cin >> Kalkulus;
+    
+    cout << "Masukan nilai Pancasila : ";
+    cin >> Pancasila;
+    
+    cout << " Masukan nilai DDP : ";
+    cin >> DDP;
+    
+    cout << " Masukan nilai Agama : ";
+    cin >> Agama;
+    
+    cout << "Masukan nilai KSI : ";
+    cin >> KSI;
+    
+    cout << "Masukan nilai PSD : ";
+    cin >> PSD;
+    
+    cout << "Masukan nilai Kewarganegaraan : ";
+    cin >> Kewarganegaraan;
+    
+    cout << "Rata - rata : " << (Kalkulus + Pancasila + DDP + Agama + KSI + PSD + Kewarganegaraan) / 7 ;
+    
+    
+    return 0;
+}
